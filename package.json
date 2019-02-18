@@ -54,7 +54,7 @@
     "phantomjs-prebuilt": "2.1.*",
     "prompt": "^1.0.0",
     "proxyquireify": "3.2.*",
-    "semistandard": "8.*",
+    "semistandard": "13.*",
     "watchify": "3.*"
   },
   "semistandard": {
