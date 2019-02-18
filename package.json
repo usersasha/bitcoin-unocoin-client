@@ -46,7 +46,7 @@
     "jasmine-core": "^2.2.0",
     "jasmine-es6-promise-matchers": "^2.0.1",
     "karma": "0.13.*",
-    "karma-browserify": "5.1.*",
+    "karma-browserify": "5.3.*",
     "karma-coverage": "1.1.*",
     "karma-jasmine": "1.0.*",
     "karma-osx-reporter": "0.2.*",
