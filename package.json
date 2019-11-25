@@ -38,7 +38,7 @@
   "devDependencies": {
     "browserify": "13.*",
     "browserify-istanbul": "2.0.*",
-    "coveralls": "^2.11.14",
+    "coveralls": "^3.0.8",
     "eslint": "2.*",
     "fetch-mock": "^5.11.0",
     "git-changelog": "1.0.*",
