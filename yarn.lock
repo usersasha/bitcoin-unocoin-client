@@ -2307,6 +2307,17 @@ glob@^7.0.0, glob@^7.0.3, glob@^7.0.5, glob@^7.1.0:
     once "^1.3.0"
     path-is-absolute "^1.0.0"
 
+glob@^7.1.4:
+  version "7.1.6"
+  resolved "https://registry.yarnpkg.com/glob/-/glob-7.1.6.tgz#141f33b81a7c2492e125594307480c46679278a6"
+  dependencies:
+    fs.realpath "^1.0.0"
+    inflight "^1.0.4"
+    inherits "2"
+    minimatch "^3.0.4"
+    once "^1.3.0"
+    path-is-absolute "^1.0.0"
+
 globals@^8.0.0:
   version "8.18.0"
   resolved "https://registry.yarnpkg.com/globals/-/globals-8.18.0.tgz#93d4a62bdcac38cfafafc47d6b034768cb0ffcb4"
@@ -2794,9 +2805,20 @@ jasmine-core@^2.2.0:
   version "2.6.4"
   resolved "https://registry.yarnpkg.com/jasmine-core/-/jasmine-core-2.6.4.tgz#dec926cd0a9fa287fb6db5c755fa487e74cecac5"
 
+jasmine-core@^3.5.0, jasmine-core@~3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/jasmine-core/-/jasmine-core-3.5.0.tgz#132c23e645af96d85c8bca13c8758b18429fc1e4"
+
 jasmine-es6-promise-matchers@^2.0.1:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/jasmine-es6-promise-matchers/-/jasmine-es6-promise-matchers-2.1.2.tgz#f8f10e8155969f98da151d58f225f95da7763649"
+
+jasmine@^3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/jasmine/-/jasmine-3.5.0.tgz#7101eabfd043a1fc82ac24e0ab6ec56081357f9e"
+  dependencies:
+    glob "^7.1.4"
+    jasmine-core "~3.5.0"
 
 js-beautify@1.6.4:
   version "1.6.4"
@@ -2914,9 +2936,12 @@ karma-coverage@1.1.*:
     minimatch "^3.0.0"
     source-map "^0.5.1"
 
-karma-jasmine@1.0.*:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/karma-jasmine/-/karma-jasmine-1.0.2.tgz#c0b3ab327bf207db60e17fa27db37cfdef5d8e6c"
+karma-jasmine@3.0.*:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/karma-jasmine/-/karma-jasmine-3.0.0.tgz#9c0eb431ae18b4eb2cace335593703b09a2f8f1f"
+  dependencies:
+    jasmine "^3.5.0"
+    jasmine-core "^3.5.0"
 
 karma-osx-reporter@0.2.*:
   version "0.2.1"
